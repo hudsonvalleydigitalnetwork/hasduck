@@ -1,0 +1,34 @@
+#
+# HASduck.service 
+#
+# 20210225-1100
+#
+# DESCRIPTION
+#
+#     This is a systemd service that runs HASduck.py on Pi startup.
+#
+
+
+##
+## INIT VARIABLES 
+##
+
+
+##
+## SCRIPT
+##
+
+[Unit]
+Description=HASduck Duck
+After=multi-user.target
+
+[Service]
+User=pi
+PIDFile=/run/HASduck-service.pid
+WorkingDirectory=/home/pi/HASduck
+ExecStart=/home/pi/HASduck/HASduck.py
+ExecStop=-/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 --pidfile /run/HASduck.pid
+TimeoutStopSec=5
+
+[Install]
+WantedBy=multi-user.target
