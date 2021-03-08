@@ -24,7 +24,7 @@ cd ~/HASduck
 * Duck app
 
 ### HASduck_config.py
-* Config Duck and save to duckwalk.txt
+* Config Duck and save to hasDUCK.json
 
 ### HASduck.sh
 * Script to stop/start/install/remove Duck service
@@ -37,6 +37,9 @@ cd ~/HASduck
 
 ### HASrf95.py
 * RFM95 Module used by HASvioletRF.py
+
+### HASviolet_config.py
+* Configure your station. Updates HASviolet.json
 
 ### HASvioletHID.py
 * HID library for OLED and buttons
