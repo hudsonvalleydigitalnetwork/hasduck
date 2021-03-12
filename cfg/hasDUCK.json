@@ -1,15 +1,15 @@
 {
     "0": {
-		"message": "Quack Quack Quack",
-		"interval": 10,
+	"message": "Quack Quack Quack",
+	"interval": 10,
         "trigger": "none",
         "trigger_value": "0",
         "action": "reset",
-		"duration": 3600
+	"duration": 3600
 	},
-	"1": {
-		"message": "Quack Quack Quack",
-		"interval": 10,
+    "1": {
+	"message": "Quack Quack Quack",
+	"interval": 10,
         "trigger": "none",
         "trigger_value": "0",
         "action": "reset",
@@ -17,10 +17,10 @@
     },
     "2": {
         "message": "Quack Quack Quack",
-		"interval": 10,
+	"interval": 10,
         "trigger": "none",
         "trigger_value": "0",
         "action": "reset",
-		"duration": 3600
+	"duration": 3600
     }
 }
