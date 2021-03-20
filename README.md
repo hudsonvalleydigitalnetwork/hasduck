@@ -6,17 +6,12 @@ HASduck is a modern take on Radiodirection finding (RDF) where the hunt is for a
 
 The quickest way to get started with HASduck is to
 
-- Buy a RPi Zero W and LoRa 915 MHz module from Adafruit
-- Install Raspbian Lite OS
-- From Pi home directory clone the latest release to the RPi Zero W
-  
-  ```
-  cd ~/HASduck
-  ./HASviolet_config.py
-  ./HASduck_config.py
-  ./HASduck.sh install
-  ./sudo reboot
-  ```
+- Buy the [hardware](http://www.adafruit.com/wishlists/503542)
+- Install [Raspberry Pi OS Lite](https://www.raspberrypi.org/software/operating-systems/) on a microSD card using [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
+- Log in as Pi
+- Clone the [repo](https://github.com/hudsonvalleydigitalnetwork/HASduck.git)
+- cd into the repo directory and run **./HASduck_install_fresh.sh**
+- Read the fine [manual](https://github.com/hudsonvalleydigitalnetwork/HASduck/blob/main/HASduck_RPi_Guide_v12.pdf)
 - From the OLED select DUCKHUNT then RUN DUCK
 
 ## Duck Framework
@@ -52,6 +47,10 @@ The framework remains a work in progress.
 #### HASduck.sh
 
 * Script to stop/start/install/remove Duck service
+
+#### HASduck_instakll_fresh.sh
+
+* Script for fresh install of HASduck
 
 #### HASduck.service
 
